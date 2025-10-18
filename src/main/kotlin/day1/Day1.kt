@@ -14,7 +14,7 @@ fun getElementFromFile(filename: String): Pair<MutableList<Int>, MutableList<Int
         leftList.add(numberLeft.toInt())
         rightList.add(numberRight.toInt())
     }
-    val pair: Pair<MutableList<Int>, MutableList<Int>> = Pair(leftList, rightList)
+    val pair: Pair<MutableList<Int>, MutableList<Int>> = leftList to rightList
     return pair
 
 }
